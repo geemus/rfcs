@@ -3,10 +3,10 @@ require 'excon'
 rfcs = []
 
 # http 1.1
-rfcs.concat((7230..7237).to_a)
+rfcs.concat (7230..7237).to_a
 
 # http 2.0
-rfcs.concat([7540])
+rfcs.concat (7540..7541).to_a
 
 etags = {}
 
